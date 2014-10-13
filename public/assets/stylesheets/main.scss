@@ -1,0 +1,47 @@
+body {
+  background: #eee;
+  font-family: "Helvetica", "Arial", "Verdana", sans-serif;
+  font-size: 7pt;
+  color: #000;
+  background: #fff;
+  position: relative;
+  text-transform: uppercase;
+
+  input[type="submit"] {
+    display: block;
+  }
+
+  .wrapper {
+
+    header {
+      nav {
+        margin: 0 auto;
+        max-width: 960px;
+        ul {
+          li {
+
+          }
+        }
+      }
+
+    }
+
+    main {
+      margin: 0 auto;
+      max-width: 960px;
+    }
+
+    .push {
+
+    }
+  }
+  
+  footer {
+    nav {
+      margin: 0 auto ;
+      max-width: 960px;
+    }
+
+  }
+
+}

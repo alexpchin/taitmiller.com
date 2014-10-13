@@ -5,6 +5,9 @@ ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile', __FILE__)
 require 'bundler/setup' if File.exists?(ENV['BUNDLE_GEMFILE'])
 
 require 'sinatra/base'
+require 'sprockets'
+require 'sass'
+require 'haml'
 
 # Some helper constants for path-centric logic
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))
