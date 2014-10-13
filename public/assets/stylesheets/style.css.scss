@@ -69,6 +69,8 @@ html, body {
       border: none;
       text-transform: uppercase;
       font-size: 1em;
+      -webkit-appearance: none;
+      -moz-appearance: none;
     }
 
     &[type="email"],
