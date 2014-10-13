@@ -1,7 +1,0 @@
-#Fields:	date	time	type	message
-2013-10-22	14:18:25	NOTICE	Environment: Backup 2.2; WordPress 3.5.2; PHP 5.3.27; SAPI cgi-fcgi; OS Linux; ZIP false; CURL 7.21.0; Time limit 600s; Memory limit 256M
-2013-10-22	14:18:25	NOTICE	Attempting to dump database.
-2013-10-22	14:18:26	NOTICE	The database dump was completed successfully in 0.481 seconds.
-2013-10-22	14:18:26	NOTICE	Attempting to create archive 'Tait-Miller-mv2qep.zip'.
-2013-10-22	14:18:46	NOTICE	Successfully archived 797 files in 20.364 seconds. Archive file size is 23.24 MB.
-2013-10-22	14:18:46	NOTICE	Backup process completed in 21.580 seconds. Initial PHP memory usage was 13.75 MB and the backup process used another 16.25 MB of RAM.
