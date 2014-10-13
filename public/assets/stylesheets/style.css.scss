@@ -1,0 +1,102 @@
+$margin-unit: 1.5em;
+
+html, body {
+  height: 100%;
+  background: #eee;
+  font-family: "Helvetica", "Arial", "Verdana", sans-serif;
+  font-size: 7pt;
+  color: #000;
+  background: #fff;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+
+  input {
+    display: block;
+    margin: 1em auto;
+  }
+
+  // Typography
+  h1, h2, h3, h4, h5 {
+    margin: ($margin-unit / 2) auto;
+  }
+
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+
+  h4 {
+    font-size: 1.4em;
+  }
+
+  h5 {
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  .wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -155px;
+
+    header {
+      nav {
+        margin: 0 auto;
+        max-width: 960px;
+        
+        ul {
+          display: inline;
+
+          li {
+            display: inline;
+            list-style-type: none;
+            h1 {
+              a {
+                text-decoration: none;
+              }
+            }
+
+          }
+        }
+      }
+
+    }
+
+    main {
+      margin: 0 auto;
+      max-width: 960px;
+    }
+
+    .push {
+      height: 155px;
+    }
+  }
+  
+  footer {
+    height: 155px;
+
+    nav {
+      margin: 0 auto ;
+      max-width: 960px;
+
+      ul {
+        display: inline;
+
+        li {
+          display: inline;
+          list-style-type: none;
+        }
+      }
+    }
+  }
+}
