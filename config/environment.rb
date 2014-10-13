@@ -6,7 +6,6 @@ require 'bundler/setup' if File.exists?(ENV['BUNDLE_GEMFILE'])
 
 require 'sinatra/base'
 require 'sprockets'
-require 'yui-compressor'
 require 'sass'
 require 'haml'
 
