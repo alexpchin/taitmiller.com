@@ -14,10 +14,10 @@ module TaitMiller
         env.append_path(settings.root + "/public/assets/stylesheets")
 
         # Compress everything in production
-        if ENV["RACK_ENV"] == "production"
-          env.js_compressor  = YUI::JavaScriptCompressor.new
-          env.css_compressor = YUI::CssCompressor.new
-        end
+        # if ENV["RACK_ENV"] == "production"
+        #   env.js_compressor  = YUI::JavaScriptCompressor.new
+        #   env.css_compressor = YUI::CssCompressor.new
+        # end
       })
 
       # Required for flash
